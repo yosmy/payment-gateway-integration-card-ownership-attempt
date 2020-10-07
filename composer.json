@@ -1,0 +1,27 @@
+{
+    "name": "yosmy/payment-gateway-integration-card-ownership-attempt",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/payment-gateway-integration-card-ownership": "@dev",
+        "yosmy/attempt": "@dev"
+    },
+    "require-dev": {
+        "symfony/debug": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Payment\\Card\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
